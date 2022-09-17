@@ -572,7 +572,7 @@ footer a{
     transition: .5s;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
     .redes{
         display: none;
     }
@@ -590,7 +590,7 @@ footer a{
         position: absolute;
         top: 48px;
         left: 0;
-        top: 80px;
+        top: 130px;
         padding: 10px 0;
         }
     nav.responsive ul{
@@ -602,9 +602,15 @@ footer a{
     nav.responsive ul li{
         margin: 5px 0;
     }
+    #inicio .contenido header .contenido-header .nav-brand {
+        width: 70px;
+        height: 70px;
+        margin: 20px 0px;
+    }
     #icon-nav{
-        font-size: 40px;
+        font-size: 60px;
         display: block;
+        margin: 10px 0;
     }
     #inicio .contenido .presentacion h2{
         font-size: 40px;
