@@ -644,6 +644,7 @@ footer a{
         width: 300px;
         text-align: center;
         padding: 0px;
+        margin: 20px;
     }
     #about .about {
         display: flex;
@@ -682,6 +683,7 @@ footer a{
         font-size: 20px ;
      }
      .contenedor-skills .mensaje p{
+        width: 300px;
         font-size: 15px ;
      }
 
