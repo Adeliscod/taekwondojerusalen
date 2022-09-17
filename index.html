@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Document</title>
+
+</head>
+<body>
+     <!--Boton Whatssap-->
+     <a href="" class="btn-wts" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <!--sECCION DE INICIO-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                    <div class="contenido-header">
+                        <img src="img/logo.png" alt="logo" class="nav-brand">
+                            <nav id="nav" class="">   
+                                <ul id="links">
+                                    <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                    <li><a href="#about" onclick="seleccionar(this)">About</a></li>
+                                    <li><a href="#services" onclick="seleccionar(this)">objetivo</a></li>
+                                    <li><a href="#skills" onclick="seleccionar(this)">Clases</a></li>
+                                    <li><a href="#portfolio" onclick="seleccionar(this)">Edades</a></li>
+                                    <li><a href="#contacto" onclick="seleccionar(this)">Contact</a></li>
+                                </ul>
+                            </nav> 
+                            <!--barra-->
+                            <div id="icon-nav" class="" onclick="responsiveMenu()">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            <!--Redes-->
+                            <div class="redes">
+                                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>  
+                                                         
+                            </div>
+                    </div>
+            </header>
+            <div class="presentacion">
+                
+                <h2><span>Artes Marciales</span><br>
+                     Taekwondo Jerusalén</h2> 
+               
+                <a href="#about">Quienes Somos</a>                
+            </div>
+
+        </div>
+    </section>
+    <!--sECCION About-->
+    <section id="about">
+        <div class="foto">
+            <img src="img/nacho-60.jpg" alt="">
+        </div>
+        <div class="about">
+            <p class="title">Quienes Somos</p>
+            
+            <p><span>Taekwondo Jerusalén</span> es fundado por Ignacio Rodríguez Di Biaggio quien creció en una familia de artistas marciales. Ignacio lleva 30 años practicando y 14 años de experiencia enseñando a niños y familias en Chile y Estados Unidos dentro de las organizaciones más grandes y exitosas de estos países (ATA, Bekho, Victory).</p>
+          
+        </div>
+
+    </section>
+    <!--sECCION Objetivo-->
+    <section id="services">
+        <h3 class="titulo-seccion">Objetivo</h3>
+        <p>
+            Taekwondo Jerusalén son clases particulares que buscan mejorar la calidad de vida personal y relacional – de vínculos entre familias y amigos – ayudando así a formar una mejor sociedad por medio de los valores y prácticas que se enseñan en el Taekwondo: Respeto, confianza, humildad y liderazgo.
+        </p>
+        <div class="fila">
+            <div class="services">
+                <span class="icon"><i class="fa-solid fa-code"></i></span>
+                <h4>Dominio</h4>
+                <hr>
+               
+                <p>Dominio personal; autorregulación emocional y cognitiva.</p>
+
+            </div>
+            <div class="services">
+                <span class="icon"><i class="fa-solid fa-code"></i></span>
+                <h4>Disciplina</h4>
+                <hr>
+               
+                <p>Mejora de hábitos y virtudes por medio de la constancia y la disciplina.</p>
+
+            </div>
+            <div class="services">
+                <span class="icon"><i class="fa-solid fa-code"></i></span>
+                <h4>Motivación</h4>
+                <hr>
+                
+                <p>Ejercicio físico que aumenta el estado de ánimo y motivación.</p>
+
+            </div>
+        </div>
+        
+    
+    </section>
+    <!--sECCION Clases-->
+    <div class="contenedor-skills" id="skills">
+        <div class="mensaje">
+            <img src="img/cruz_ok_je.fw_.png" alt="">
+            <h3>Lleva el Taekwondo a tu hogar</h3>
+            <p>Nuestras clases siguen un método de enseñanza tradicional adaptado a los tiempos de hoy;<br> Esto quiere decir que exigimos a nuestros alumnos (según sus capacidades personales) para que den lo mejor de sí.<br> Confiamos en que los alumnos son más capaces de lo que el entorno le plantea y nuestra labor es ayudarlos a manifestar todo su potencial humano.</p>
+        </div>
+    </div>
+     <!--sECCION Edades-->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Edades</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                    <img src="img/nacho-5-1.jpg" alt="">
+                        <div class="info">
+                            <h4>Descripción</h4>
+                                <p>diseño</p>
+                        </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                    <img src="img/Taekwondo-2.jpg" alt="">
+                        <div class="info">
+                            <h4>Descripción</h4>
+                                <p>diseño</p>
+                        </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                    <img src="img/Taekwondo-1.jpeg" alt="">
+                        <div class="info">
+                            <h4>Descripción</h4>
+                                <p>diseño</p>
+                        </div>
+            </div>
+
+            </div>
+        </div>
+        
+    </section>
+    <!--sECCION Contact-->
+    <section id="contacto">
+        
+            <div class="contenedor-form">
+                <h3 class="titulo-seccion">Contactanos</h3>
+                <form action="">
+                    <div class="fila mitad">
+                        <input type="text" placeholder="Nombre" class="input-mitad">
+                        <hr>
+                        <input type="text" placeholder="E-mail" class="input-mitad">
+                        
+                    </div>
+
+                    <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                    </div>
+                    <div class="fila">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                    </div>
+
+                    <input type="submit" value="Enviar" class="btn-enviar">
+
+                </form>
+            </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <p>Todos los derechos reservados 2022</p>
+        <div class="redes-footer">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+      
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
