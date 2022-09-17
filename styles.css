@@ -566,6 +566,20 @@ footer a{
     font-size: 20px;
     transition: .5s;
 }
+@media screen and (max-width:1260px){
+    .redes{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+    }
+    #inicio .contenido header .contenido-header .nav-brand{
+        width: 200px;
+        margin-left: 40px;
+    }
+
+}
 
 @media screen and (max-width:850px) {
     .redes{
