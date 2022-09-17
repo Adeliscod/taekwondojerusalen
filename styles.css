@@ -623,7 +623,7 @@ footer a{
     }
     #about .foto{
        
-        max-width: 300px;
+        max-width: 400px;
         margin: auto;
 
     }
@@ -641,6 +641,7 @@ footer a{
         text-align: center;
     }
     #about p{
+        width: 400px;
         text-align: center;
         padding: 0px;
     }
