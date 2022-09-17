@@ -667,13 +667,16 @@ footer a{
      }
      /*Skills*/
      .contenedor-skills{
+        
         height: auto;
         padding: 50px 20px;
         background-size: cover;
-        
+       
      }
      .contenedor-skills .mensaje{
+        width: 300px;
         padding-top: 500px;
+        margin: auto;
      }
      .contenedor-skills .mensaje img{
        width: 80px;
@@ -683,8 +686,9 @@ footer a{
         font-size: 20px ;
      }
      .contenedor-skills .mensaje p{
-        width: 300px;
+        
         font-size: 15px ;
+        margin: auto;
      }
 
      #portfolio{
