@@ -352,77 +352,6 @@ width: 100px;
     color: #fff;
     font-size: 25px;
 }
-   
-
-
-
-/*JS*/
-
-.contenedor-skills .skills .barra .barra-progreso1{
-    background-color: #fff;
-    width: 25%;
-    height: 6px;
-    animation: progreso1 2s forwards;
-
-}
-.contenedor-skills .skills .barra .barra-progreso2{
-    background-color: #fff;
-    width: 55%;
-    height: 6px;
-    animation: progreso2 2s forwards;
-
-}
-.contenedor-skills .skills .barra .barra-progreso3{
-    background-color: #fff;
-    width: 15%;
-    height: 6px;
-    animation: progreso3 2s forwards;
-  
-
-}
-
-.contenedor-skills .skills .barra .barra-progreso4{
-    background-color: #fff;
-    width: 15%;
-    height: 6px;
-    animation: progreso4 2s forwards;
-
-}
-
-@keyframes progreso1{
-    0%{
-    width: 0;
-    }
-    100%{
-        width: 45%;
-    }
-}
-@keyframes progreso2{
-    0%{
-    width: 0;
-    }
-    100%{
-        width: 0
-        35%;
-    }
-}
-@keyframes progreso3{
-    0%{
-    width: 0;
-    }
-    100%{
-        width: 30%;
-    }
-}
-@keyframes progreso4{
-    0%{
-    width: 0;
-    }
-    100%{
-        width: 50%;
-    }
-}
-
 #portfolio{
     
     max-width: 1100px;
@@ -561,22 +490,20 @@ footer a{
     text-decoration: none;
     color: aliceblue;
     display: inline-block;
-    margin: 5px;  
+    margin: 1px;  
     font-weight: 400;
     font-size: 20px;
     transition: .5s;
 }
+
 @media screen and (max-width:1260px){
-    .redes{
-        display: flex;
-        flex-direction: column;
+    .redes a i{
+        display: none;
+      
     }
+    
     nav{
-        display: flex;
-    }
-    #inicio .contenido header .contenido-header .nav-brand{
-        width: 200px;
-        margin-left: 40px;
+        font-size: 10px;
     }
 
 }
